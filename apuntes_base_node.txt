@@ -1,0 +1,50 @@
+Recibir infomación desde línea de comando
+nodemon --version 
+
+console.log(proccess.argv) //argumento que vienen desde consola  
+                           //esto nos devuelve los siguiente 
+'C:\\Program Files\\nodejs\\node.exe',    --> este es el path 
+  'C:\\Users\\Vfari\\Documents\\Estudea\\node\\03-bases-node\\app', --> donde se encuentra ejecutada la aplicación
+  '--base=9'						   
+  
+  debemos usar yargs para trabajar con + argumentos
+ ¿Qué es yargs? De todos modos, aquí estamos instalando 'yargs' , que es un paquete pirata de NPM que permite argumentos de línea de comandos para NodeJs.
+ 
+ package.json -init- install - uninstall
+ 
+ 
+ ¿para que sirve el package.json?
+ Es el punto inicial de cualqueir proyecto de node, nos ayuda a nosotros y nos ayuda a node a saber que comando son los que se ejecutan 
+ para ejecutar su aplicación. 
+comando para ejecutar scripts 
+	npm run nombre_Script
+	
+instalar dependencia nodemon para version local 
+  npm install nodemon --save-dev 
+
+Si quiero hacer una vesion especifica de una version en particular 
+primero se debe desintalar paquete ejemplo 
+	npm unistall colors
+y ahora instaamos la version que deseamos 
+ npm i colors@1.0.0
+ 
+tb existe el comando para actualizar 
+	npm update 
+ 
+ 
+yargs --> documentaci´pn de yargs yargs.js.org
+ npm i yargs 
+ node app --base=5  
+ 
+ 
+ Configuraciones de yargs 
+ buscar en pagina de yargs y buscamos option 
+ 
+ //nos sirve para mostra los parameros que tiene nuestra aplicacion
+ node app --help
+ 
+ 
+
+ 
+ 
+ 
